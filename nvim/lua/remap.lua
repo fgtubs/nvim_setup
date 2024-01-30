@@ -5,7 +5,7 @@ vim.g.mapleader = " "
 vim.api.nvim_set_keymap('i', 'kj', '<Esc>', { noremap = true, silent = true })
 
 -- Define the mapping for <Leader>t to open a new tab
-vim.api.nvim_set_keymap('n', '<Leader>t', ':tabnew<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>tab', ':tabnew<CR>', { noremap = true, silent = true })
 
 -- Mapping for pasting from system clipboard if in normal mode
 vim.api.nvim_set_keymap('n', '<C-v>', '"+p', { noremap = true, silent = true })
