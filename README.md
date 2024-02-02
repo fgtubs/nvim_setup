@@ -1,6 +1,9 @@
 # nvim_setup
 
-Installation process:
+Install neovim from github
+[https://github.com/neovim/neovim](https://github.com/neovim/neovim)
+
+### Custom Installation process:
 
 ```
 git clone https://github.com/fgtubs/nvim_setup.git
