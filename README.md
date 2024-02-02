@@ -1,6 +1,8 @@
 # nvim_setup
 
-Install neovim from github
+### Install neovim from github
+Install prerequirements:
+- ```sudo apt-get install cmake build-essential libtool-bin pkg-config unzip gettext automake autoconf ninja-build```
 [https://github.com/neovim/neovim](https://github.com/neovim/neovim)
 
 ### Custom Installation process:
