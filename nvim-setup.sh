@@ -1,5 +1,11 @@
 #!/bin/bash
 
+sudo apt-get update
+
+# install npm for lsp
+sudo apt install -y nodejs
+sudo apt install -y npm
+
 sudo apt-get install -y cmake build-essential libtool-bin pkg-config unzip gettext automake autoconf ninja-build
 
 git clone https://github.com/neovim/neovim.git
